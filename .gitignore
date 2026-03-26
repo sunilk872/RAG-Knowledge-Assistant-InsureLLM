@@ -1,0 +1,8 @@
+.env
+__pycache__/
+.gradio/
+vector_db/
+preprocessed_db/
+evaluation/
+*.pyc
+.ipynb_checkpoints/

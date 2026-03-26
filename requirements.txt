@@ -1,0 +1,40 @@
+# ===========================
+# RAG Knowledge Assistant - InsuRelLM
+# Requirements
+# ===========================
+
+# --- Core LLM & Embeddings ---
+openai                         # OpenAI API client (GPT models)
+litellm                        # Unified LLM interface (used in advanced RAG)
+
+# --- LangChain Framework ---
+langchain                      # Core framework for RAG orchestration
+langchain-openai               # LangChain + OpenAI integration (ChatOpenAI)
+langchain-chroma               # LangChain + ChromaDB integration
+langchain-huggingface           # LangChain + HuggingFace embeddings
+langchain-community             # Community document loaders (DirectoryLoader, TextLoader)
+langchain-text-splitters        # RecursiveCharacterTextSplitter
+
+# --- Vector Database ---
+chromadb                        # ChromaDB vector store (persistent local storage)
+
+# --- Embeddings (Local) ---
+sentence-transformers           # HuggingFace sentence embeddings (all-MiniLM-L6-v2)
+
+# --- UI ---
+gradio                         # Interactive chat interface
+
+# --- Data & Visualization ---
+numpy                          # Numerical operations
+pandas                         # Data manipulation (evaluation)
+scikit-learn                   # t-SNE dimensionality reduction
+plotly                         # Interactive plots and charts
+
+# --- Tokenization ---
+tiktoken                       # Token counting for context window management
+
+# --- Structured Outputs ---
+pydantic                       # Data validation & schema enforcement
+
+# --- Environment ---
+python-dotenv                  # Load API keys from .env file
